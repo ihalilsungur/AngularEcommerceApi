@@ -26,7 +26,7 @@ namespace API.Controllers
             return list;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}")] //https://localhost:44306/api/products/3
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             var product = await _storeContext.Products.FindAsync(id);
