@@ -56,8 +56,6 @@ D:\Projelerim\vs-projects\src\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompile
 D:\Projelerim\vs-projects\src\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfoInputs.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.AssemblyInfo.cs
-D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
-D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.csprojAssemblyReference.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\appsettings.json
@@ -112,3 +110,12 @@ D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\static
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.dll
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.pdb
 D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.csproj.CoreCompileInputs.cache
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cs
+D:\Projelerim\vs-projects\AngularEcommerceApi\API\obj\Debug\netcoreapp3.1\API.MvcApplicationPartsAssemblyInfo.cache

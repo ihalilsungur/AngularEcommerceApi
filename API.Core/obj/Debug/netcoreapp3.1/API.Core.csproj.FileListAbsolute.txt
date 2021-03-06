@@ -6,3 +6,4 @@ D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\A
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.csproj.CoreCompileInputs.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.dll
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.pdb
+D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.csprojAssemblyReference.cache
