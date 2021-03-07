@@ -1,16 +1,16 @@
 ﻿using API.Core.DbModels;
 using API.Core.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using API.Core.Specifications;
 using API.Dtos;
+using API.Helpers;
 using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-   
+
     public class ProductsController : BaseApiController
     {
     
@@ -29,25 +29,15 @@ namespace API.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductToReturnResponse>>> GetProducts()
+        public async Task<ActionResult<Pagination<ProductToReturnResponse>>> GetProducts([FromQuery]ProductSpecParams productSpecParams)
         {
-            var spec = new ProductsWithProductTypeAndBrandsSpecification();
-            var list = await _productRepository.ListAsync(spec);
-           // return Ok(list);
-           /*
-           return list.Select(product => new ProductToReturnResponse
-           {
-               Id = product.Id,
-               Name = product.Name,
-               Description = product.Description,
-               PictureUrl = product.PictureUrl,
-               Price = product.Price,
-               ProductBrand = product.ProductBrand != null ? product.ProductBrand.Name : string.Empty,
-               ProductType = product.ProductType != null ? product.ProductType.Name : string.Empty
-           }).ToList();
-           
-           */
-           return Ok(_mapper.Map<IReadOnlyList<Product>,IReadOnlyList<ProductToReturnResponse>>(list));
+            var spec = new ProductsWithProductTypeAndBrandsSpecification(productSpecParams);
+            var countSpec =  new ProductWithFiltersForCountSpecification(productSpecParams);
+            var totalItems = await _productRepository.CountAsync(spec);
+            var products = await _productRepository.ListAsync(spec);
+            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnResponse>>(products);
+            
+            return Ok(new Pagination<ProductToReturnResponse>(productSpecParams.PageIndex,productSpecParams.PageSize,totalItems,data));
         }
 
         [HttpGet("{id}")] //https://localhost:44306/api/products/3
