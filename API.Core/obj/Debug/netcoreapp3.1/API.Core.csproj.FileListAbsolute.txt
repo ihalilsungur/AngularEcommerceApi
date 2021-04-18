@@ -1,9 +1,9 @@
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\bin\Debug\netcoreapp3.1\API.Core.deps.json
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\bin\Debug\netcoreapp3.1\API.Core.dll
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\bin\Debug\netcoreapp3.1\API.Core.pdb
+D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.csprojAssemblyReference.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.AssemblyInfoInputs.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.AssemblyInfo.cs
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.csproj.CoreCompileInputs.cache
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.dll
 D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.pdb
-D:\Projelerim\vs-projects\AngularEcommerceApi\API.Core\obj\Debug\netcoreapp3.1\API.Core.csprojAssemblyReference.cache

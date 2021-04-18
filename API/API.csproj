@@ -20,5 +20,25 @@
     <ProjectReference Include="..\Infrastructure\API.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\images\products\bluetooh-kulaklik.jpg" />
+    <None Include="wwwroot\images\products\klavye-mouse-1.jpg" />
+    <None Include="wwwroot\images\products\klavye-mouse.jpg" />
+    <None Include="wwwroot\images\products\monitor.jpg" />
+    <None Include="wwwroot\images\products\mouse-1.jpg" />
+    <None Include="wwwroot\images\products\mouse-2.jpg" />
+    <None Include="wwwroot\images\products\mouse-3.jpg" />
+    <None Include="wwwroot\images\products\mouse-4.jpg" />
+    <None Include="wwwroot\images\products\notebook-2.jpg" />
+    <None Include="wwwroot\images\products\notebook-3.jpg" />
+    <None Include="wwwroot\images\products\notebook.jpg" />
+    <None Include="wwwroot\images\products\phone.jpg" />
+    <None Include="wwwroot\images\products\tablet.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+
 
 </Project>
